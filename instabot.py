@@ -64,7 +64,7 @@ print("1. Показать неподписанных на вас людей")
 print("Введите действие:")
 check_inp = input()
 if check_inp == '1' or check_inp == '2':
-    a = InstaBot("cheeeeel16", "19921992v")
+    a = InstaBot("login", "pw")
 while 1:
     if check_inp == '1':
         a.get_unfollowers()
